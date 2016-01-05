@@ -3,9 +3,18 @@
 ## Introduction
 This code book describes the variables, the data, and the work that I performed to clean up the data 
 
+## Data
+
+The "tidydata.txt" file is in the wide tidy data format. It consists of 180 rows of observations with 68 different columns of variables. There are 180 rows because there are 30 participants in the dataset and there are 6 different activities that are measured by the data set (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). The first two columns as explained below are the subjectID and the different activities that are being measured. The next 66 columns are:
+* Average of the mean and standard deviation values of 5 various time domain signal measurements in the x, y, and z coordinates. First 30 columns.
+* Average of the mean and standard deviation values of magnitude of 5 various time domain signal measurements using Eucledian norm. The next 10 columns
+* Average of the mean and standard deviation values of 3 various frequency domain signal (from fast fourier transform) in the x, y, and z coordinates. The next 18 columns. 
+* average of the mean and standard deviation values of magnitude of 4 various frequency domain signal measurements using Eucledian norm. The last 8 columns. 
+
+
 ## Variables
 
-All the variables, except for subjectID and ActivityDescription, have been averaged out 
+All the variables, except for subjectID and ActivityDescription, are average of multiple measurements taken in "Human Activity Recognition Using Smartphones Data Set"
 
 | Variables                                | Description                                                                                                 |
 |------------------------------------------|---------------------------------------------------------------------------------------|
@@ -79,3 +88,14 @@ All the variables, except for subjectID and ActivityDescription, have been avera
 | fBodyGyroscopeJerkMagnitude.std      | standard deviation value for magnitude of frequency domain signal in body acceleration signals computed using Eucledian norm      |
 
 
+## Work done on the raw data to get into tidy data
+
+Following the instructions given in the project, I created one R script called run_analysis.R that:
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Please read through the run_analysis script comments for more details. 
