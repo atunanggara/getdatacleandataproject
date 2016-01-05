@@ -99,4 +99,4 @@ Following the instructions given in the project, I created one R script called r
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Please read through the run_analysis script comments for more details. 
+Please read through the Readme.md or run_analysis script comments for more details. 
