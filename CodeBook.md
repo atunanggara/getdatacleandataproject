@@ -51,5 +51,31 @@ All the variables, except for subjectID and ActivityDescription, have been avera
 | tBodyGyroscopeMagnitude.std              | standard deviation value for magnitude of time domain signal in body acceleration signals computed using Eucledian norm           |
 | tBodyGyroscopeJerkMagnitude.mean         | mean value for magnitude of body angular velocity signal (Jerk Signal) computed using Eucledian norm                              |
 | tBodyGyroscopeJerkMagnitude.std          | standard deviation value for magnitude of body angular velocity signal (Jerk Signal) computed using Eucledian norm                |
+| fBodyAccelerometer.mean.X            | mean value for frequency domain signal in body acceleration signals in the x coordinate using accelerometer                       |
+| fBodyAccelerometer.mean.Y            | mean value for frequency domain signal in body acceleration signals in the y coordinate using accelerometer                       |
+| fBodyAccelerometer.mean.Z            | mean value for frequency domain signal in body acceleration signals in the z coordinate using accelerometer                       |
+| fBodyAccelerometer.std.X             | standard deviation value for frequency domain signal in body acceleration signals in the x coordinate using accelerometer         |
+| fBodyAccelerometer.std.Y             | standard deviation value for frequency domain signal in body acceleration signals in the y coordinate using accelerometer         |
+| fBodyAccelerometer.std.Z             | standard deviation value for frequency domain signal in body acceleration signals in the z coordinate using accelerometer         |
+| fBodyAccelerometerJerk.mean.X        | mean value for body linear acceleration signal (frequency Jerk Signal) in the x coordinate                                        |
+| fBodyAccelerometerJerk.mean.Y        | mean value for body linear acceleration signal (frequency Jerk Signal) in the y coordinate                                        |
+| fBodyAccelerometerJerk.mean.Z        | mean value for body linear acceleration signal (frequency Jerk Signal) in the z coordinate                                        |
+| fBodyAccelerometerJerk.std.X         | standard deviation value for body angular velocity signal (frequency Jerk Signal) in the x coordinate                             |
+| fBodyAccelerometerJerk.std.Y         | standard deviation value for body angular velocity signal (frequency Jerk Signal) in the y coordinate                             |
+| fBodyAccelerometerJerk.std.Z         | standard deviation value for body angular velocity signal (frequency Jerk Signal) in the z coordinate                             |
+| fBodyGyroscope.mean.X                | mean value for frequency domain signal in body acceleration signals in the x coordinate using gyroscope                           |
+| fBodyGyroscope.mean.Y                | mean value for frequency domain signal in body acceleration signals in the y coordinate using gyroscope                           |
+| fBodyGyroscope.mean.Z                | mean value for frequency domain signal in body acceleration signals in the z coordinate using gyroscope                           |
+| fBodyGyroscope.std.X                 | standard deviation value for frequency domain signal in body acceleration signals in the x coordinate using gyroscope             |
+| fBodyGyroscope.std.Y                 | standard deviation value for frequency domain signal in body acceleration signals in the y coordinate using gyroscope             |
+| fBodyGyroscope.std.Z                 | standard deviation value for frequency domain signal in body acceleration signals in the z coordinate using gyroscope             |
+| fBodyAccelerometerMagnitude.mean     | mean value for magnitude of frequency domain signal in body acceleration signals computed using Eucledian norm                    |
+| fBodyAccelerometerMagnitude.std      | standard deviation for magnitude of frequency domain signal in body acceleration signals computed using Eucledian norm            |
+| fBodyAccelerometerJerkMagnitude.mean | mean value for magnitude of body angular velocity signal (Jerk Signal) computed using Eucledian norm                              |
+| fBodyAccelerometerJerkMagnitude.std  | standard deviation value for magnitude of body angular velocity signal (Jerk Signal) computed using Eucledian norm                |
+| fBodyGyroscopeMagnitude.mean         | mean value for magnitude of frequency domain signal in body acceleration signals computed using Eucledian norm                    |
+| fBodyGyroscopeMagnitude.std          | standard deviation value for magnitude of frequency domain signal in body acceleration signals computed using Eucledian norm      |
+| fBodyGyroscopeJerkMagnitude.mean     | mean value for magnitude of frequency domain signal in body acceleration signals computed using Eucledian norm                    |
+| fBodyGyroscopeJerkMagnitude.std      | standard deviation value for magnitude of frequency domain signal in body acceleration signals computed using Eucledian norm      |
 
 
