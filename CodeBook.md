@@ -11,6 +11,7 @@ The "tidydata.txt" file is in the wide tidy data format. It consists of 180 rows
 * Average of the mean and standard deviation values of 3 various frequency domain signal (from fast fourier transform) in the x, y, and z coordinates. The next 18 columns. 
 * average of the mean and standard deviation values of magnitude of 4 various frequency domain signal measurements using Eucledian norm. The last 8 columns. 
 
+As explained in the README.txt file, "features are normalized and bounded within [-1,1]". Therefore, all the variables are normalized and have no particular units associated with them. 
 
 ## Variables
 
