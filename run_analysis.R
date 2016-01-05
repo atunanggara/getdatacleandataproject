@@ -1,4 +1,4 @@
-## I have extracted the data set and has the test and train in a separate folder called "test" and train" 
+## I have extracted the data set and has the test and train in a separate folder called "test" and train". I have "features.txt" and "activity_labels.txt" in the current working directory as well. 
 
 ## Run analysis for all the files in the UCI HAR dataset
 # 1. Merges the training and the test sets to create one data set.
